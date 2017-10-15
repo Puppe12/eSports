@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<title>Hahmogalleria</title>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="main.css" />
+<link rel=stylesheet href="https://s3-us-west-2.amazonaws.com/colors-css/2.2.0/colors.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script src="displaydate.js" type="text/javascript">
+
+
+</script>
+</head>
+<body>
+<!--Kaikki muut ovat tämän sisässä-->
+<div class="sisalto">
+    <div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+        <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
+        <a href="#" class="w3-bar-item w3-button">Link 1</a>
+        <a href="#" class="w3-bar-item w3-button">Link 2</a>
+        <a href="#" class="w3-bar-item w3-button">Link 3</a>
+    </div>
+
+    <!-- Page Content -->
+
+
+
+    <div id="Allu" class="tabcontent">
+    <button class="sidebarnappi" onclick="w3_open()">☰</button>
+      <h3>Aleksi</h3>
+      <p>Hi I'm Aleksi</p>
+    </div>
+
+    <div id="Armas" class="tabcontent">
+    <button class="sidebarnappi" onclick="w3_open()">☰</button>
+      <h3>Armas</h3>
+      <p>FarmaS</p>
+    </div>
+
+    <div id="Leevi" class="tabcontent">
+      <button class="sidebarnappi" onclick="w3_open()">☰</button>
+      <h3>Leevi</h3>
+      <p>Veraen</p>
+    </div>
+
+    <div id="Tontsa" class="tabcontent">
+      <button class="sidebarnappi" onclick="w3_open()">☰</button>
+      <h3>Tontsa</h3>
+      <p>Khantum Mechazix</p>
+    </div>
+
+    <div id="Puppe" class="tabcontent">
+      <button class="sidebarnappi" onclick="w3_open()">☰</button>
+      <h3>Puppe</h3>
+      <p>Filthy support main</p>
+    </div>
+
+
+    <button class="tablink" onclick="openCity('Allu', this, 'red')" id="defaultOpen">Top</button>
+    <button class="tablink" onclick="openCity('Armas', this, 'green')">Jungle</button>
+    <button class="tablink" onclick="openCity('Leevi', this, 'blue')">Mid</button>
+    <button class="tablink" onclick="openCity('Tontsa', this, 'orange')">ADC</button>
+    <button class="tablink" onclick="openCity('Puppe', this, 'purple')">Support</button>
+
+
+
+<div class="champit">
+    <h2>Champit rooleihin:</h2>
+<table>
+    <tr id="supportti">
+        <th colspan="6">Support</th>
+    </tr>
+        <td><a href="http://champion.gg/champion/Braum/Support?">
+            <img src="champit/Braum.png" /></a></th>
+        <td><a href="http://champion.gg/champion/Janna/Support?league=">
+            <img src="champit/Janna.png" /></a></th>
+        <td><a href="http://champion.gg/champion/Alistar/Support?league=">
+            <img src="champit/Alistar.png" /></a></th>
+        <td><a href="http://champion.gg/champion/Lulu/Support?league=">
+            <img src="champit/Lulu.png" /></a></th>
+        <td><a href="http://champion.gg/champion/Taric/Support?league=">
+            <img src="champit/Taric.png" /></a></th>
+        <td><a href="http://champion.gg/champion/Thresh/Support?league=">
+            <img src="champit/Thresh.png" /></a></th>
+    </tr>
+    <tr>
+        <td>Braum</td>
+        <td>Janna</td>
+        <td>Alistar</td>
+        <td>Lulu</td>
+        <td>Taric</td>
+        <td>Thresh</td>
+    </tr>
+        <th colspan="6">Mid</th>
+    <tr colspan="6">
+        <td><a href="http://champion.gg/champion/Cassiopeia/Middle?league=plat">
+            <img src="maget/Cassiopeia.png" /></a></td>
+        <td><a href="http://champion.gg/champion/Kassadin/Middle?league=plat">
+            <img src="maget/Kassadin.png" /></a></td>
+        <td><a href="http://champion.gg/champion/Leblanc/Middle?league=plat">
+            <img src="maget/Leblanc.png" /></a></td>
+        <td><a href="http://champion.gg/champion/Malzahar/Middle?league=plat">
+            <img src="maget/Malzahar.png" /></a></td>
+        <td><a href="http://champion.gg/champion/Orianna/Middle?league=plat">
+            <img src="maget/Orianna.png" /></a></td>
+        <td><a href="http://champion.gg/champion/Syndra/Middle?league=plat">
+            <img src="maget/Syndra.png" /></a></td>
+    </tr>
+    <tr>
+        <td>Cassiopeia</td>
+        <td>Kassadin</td>
+        <td>Leblanc</td>
+        <td>Malzahar</td>
+        <td>Orianna</td>
+        <td>Syndra</td>
+    </tr>
+        <th colspan="6">ADC</th>
+    <tr>
+        <td><a href="http://champion.gg/champion/Ashe/ADC?league=plat">
+            <img src="ADC/Ashe.png" /></a></td>
+        <td><a href="http://champion.gg/champion/Jinx/ADC?league=plat">
+            <img src="ADC/Jinx.png" /></a></td>
+        <td><a href="http://champion.gg/champion/KogMaw/ADC?league=plat">
+            <img src="ADC/KogMaw.png" /></a></td>
+        <td><a href="http://champion.gg/champion/Tristana/ADC?league=bronze">
+            <img src="ADC/Tristana.png" /></a></td>
+        <td><a href="http://champion.gg/champion/Twitch/ADC?league=bronze">
+            <img src="ADC/Twitch.png" /></a></td>
+        <td><a href="http://champion.gg/champion/Varus/ADC?league=bronze">
+            <img src="ADC/Varus.png" /></a></td>
+    </tr>
+
+    <tr>
+        <td>Ashe</td>
+        <td>Jinx</td>
+        <td>Kog'Maw</td>
+        <td>Tristana</td>
+        <td>Twitch</td>
+        <td>Varus</td>
+    </tr>
+        <th colspan="6">Top</th>
+    <tr>
+        <td><a href="http://champion.gg/champion/Chogath/Top?league=">
+            <img src="Top/Chogath.png" /></a></td>
+        <td><a href="http://champion.gg/champion/Darius/Top?league=">
+            <img src="Top/Darius.png" /></a></td>
+        <td><a href="http://champion.gg/champion/Kled/Top?league=">
+            <img src="Top/Kled.png" /></a></td>
+        <td><a href="http://champion.gg/champion/Maokai/Top?league=">
+            <img src="Top/Maokai.png" /></a></td>
+        <td><a href="http://champion.gg/champion/Nasus/Top?league=">
+            <img src="Top/Nasus.png" /></a></td>
+        <td><a href="http://champion.gg/champion/Shen/Top?league=">
+            <img src="Top/Shen.png" /></a></td>
+    </tr>
+    <tr>
+        <td>Cho'Gath</td>
+        <td>Darius</td>
+        <td>Kled</td>
+        <td>Maokai</td>
+        <td>Nasus</td>
+        <td>Shen</td>
+    </tr>
+    <tr>
+        <th colspan="6">Jungle</th>
+    </tr>
+    <tr>
+        <td><a href="http://champion.gg/champion/Hecarim/Jungle?league=">
+            <img src="jungle/Hecarim.png" /></a></td>
+        <td><a href="http://champion.gg/champion/Olaf/Top?league=">
+            <img src="jungle/Olaf.png" /></a></td>
+        <td><a href="http://champion.gg/champion/Rammus/Jungle?league=">
+            <img src="jungle/Rammus.png" /></a></td>
+        <td><a href ="http://champion.gg/champion/RekSai/Jungle?league=">
+            <img src="jungle/RekSai.png" /></a></td>
+        <td><a href="http://champion.gg/champion/Sejuani/Jungle?league=">
+            <img src="jungle/Sejuani.png" /></a></td>
+        <td><a href="http://champion.gg/champion/Warwick/Jungle?league=">
+            <img src="jungle/Warwick.png" /></a></td>
+    </tr>
+    <tr>
+        <td>Hecarim</td>
+        <td>Olaf</td>
+        <td>Rammus</td>
+        <td>Rek'Sai</td>
+        <td>Sejuani</td>
+        <td>Warwick</td>
+    </tr>
+</table>
+</div>
+
+<h3>Muita hyödyllisiä, valinnaisia:</h3>
+
+<div class="ehdotuksia">
+<table>
+    <tr>
+        <td><a href="http://champion.gg/champion/Bard/Support?league=">
+            <img src="ehdotus/Bard.png" /></a></td>
+        <td><a href="http://champion.gg/champion/Corki/Middle?league=">
+            <img src="ehdotus/Corki.png" /></a></td>
+        <td><a href="http://champion.gg/champion/Jax/Top?league=">
+            <img src="ehdotus/Jax.png" /></a></td>
+        <td><a href="http://champion.gg/champion/Ryze/Middle?league=">
+            <img src="ehdotus/Ryze.png" /></a></td>
+        <td><a href="http://champion.gg/champion/Skarner/Jungle?league=">
+            <img src="ehdotus/Skarner.png" /></a></td>
+        <td><a href="http://champion.gg/champion/Vayne/ADC?league=">
+            <img src="ehdotus/Vayne.png" /></a></td>
+    </tr>
+    <tr>
+        <td>Bard</td>
+        <td>Corki</td>
+        <td>Jax</td>
+        <td>Ryze</td>
+        <td>Skarner</td>
+        <td>Vayne</td>
+    </tr>
+</table>
+</div>
+
+<p>Kuvat: http://gameinfo.eune.leagueoflegends.com/en/game-info/champions/</p>
+    </div>
+</div>
+</body>
+</html>

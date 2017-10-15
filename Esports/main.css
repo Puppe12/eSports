@@ -1,0 +1,120 @@
+html {
+
+}
+
+@@font-face {
+    font-family: "Bebas";
+    src: url("bebas.ttf") format("truetype");
+}
+
+/* Style the tab buttons */
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    margin-top: 0px;
+    font-size: 17px;
+    width: 20%;
+}
+
+/* Change background color of buttons on hover */
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Set default styles for tab content */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 50px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.sisalto {
+
+background-color: white;
+}
+
+/* Style each tab content individually */
+#Allu {
+    background-color: #FF4136;
+}
+
+#Armas {
+    background-color: #2ECC40;
+}
+#Leevi {
+    background-color: #0074D9;
+}
+
+#Tontsa {background-color: #FF851B;
+}
+
+#Puppe {background-color: #B10DC9;
+}
+
+
+.champit {
+    width: 1000px;
+    padding: 5px 5px;
+    margin: auto;
+    display: block;
+    background-color: purple;
+    text-align: center;
+}
+
+table, td {
+    border: 2px solid black;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+tr:nth-child(3n+4) {
+    background-color: grey;
+
+}
+
+tr:nth-last-child(3n+2) {
+    background-color: black;
+}
+
+tr:nth-last-child(3n+1) {
+    background-color: white;
+}
+
+.otsikot {
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+
+h1, h2, h3 {
+    text-decoration: underline;
+    text-align: center;
+    color: black;
+    font-family: "bebas", sans-serif;
+}
+
+#supportti {
+    background-color: grey;
+}
+
+.ehdotuksia {
+    padding: 5px 5px;
+    margin: auto;
+    display: block;
+    background-color: white;
+    text-align: center;
+}
+
+.sidebarnappi {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
